@@ -1,0 +1,35 @@
+#total-div{
+
+    width:50px;
+    height:auto;
+    background-color:black;
+    color:white;
+}
+
+
+#bucket{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:auto;
+    gap:30px;
+    width:90%;
+    margin:auto;
+    align-items:center;
+    text-align:center;
+    margin-top:50px;
+
+}
+#bucket>div{
+   border:1px solid red;
+}
+#bucket>div>img{
+    width:250px;
+    height:150px;
+}
+
+#confirm_checkout{
+    align-items:center;
+    margin-top:30px;
+    margin-left:30%;
+}
+
